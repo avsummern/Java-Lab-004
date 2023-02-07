@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * @author Trevor Hartman
+ * @author Adrienne van Summern
+ *
+ * @since Version 1.0
+ */
 public class SimpleMethod3 {
 
     /*
@@ -10,12 +16,14 @@ public class SimpleMethod3 {
      */
     public static int square(int number) {
         // Put your code here
-        return 0;
+        int intResult = (int) Math.pow(number, 2);
+        return intResult;
     }
 
     public static double square(double number) {
         // Put your code here
-        return 0;
+        double doubleResult = Math.pow(number, 2);
+        return doubleResult;
     }
 
     public static void main(String[] args) {
